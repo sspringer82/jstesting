@@ -41,15 +41,15 @@ module.exports = function(config) {
     autoWatch: true,
 
     customLaunchers: {
-      HeadlessChrome: {
+      HeadlessChromeWOPuppeteer: {
         base: 'Chrome',
-        flags: ['--headless', '--remote-debugging-port=9222']
-      }
+        flags: ['--headless', '--remote-debugging-port=9222'],
+      },
     },
 
     // start these browsers
     // available browser launchers: https://npmjs.org/browse/keyword/karma-launcher
-    browsers: ['ChromeHeadless', 'HeadlessChrome'],
+    browsers: ['ChromeHeadless', 'HeadlessChromeWOPuppeteer'],
 
     // Continuous Integration mode
     // if true, Karma captures browsers, runs the tests and exits

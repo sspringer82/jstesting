@@ -1,10 +1,12 @@
 {
   "name": "jstesting",
   "version": "1.0.0",
-  "description": "``` npm init npm install -D karma npm install -D karma-jasmine karma-chrome-launcher jasmine-core ```",
+  "description":
+    "``` npm init npm install -D karma npm install -D karma-jasmine karma-chrome-launcher jasmine-core ```",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "karma start --single-run",
+    "karma": "karma start"
   },
   "repository": {
     "type": "git",
