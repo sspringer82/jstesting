@@ -1,69 +1,69 @@
 <?xml version="1.0"?>
-<testsuite name="HeadlessChrome 67.0.3372 (Mac OS X 10.12.6)" package="" timestamp="2018-03-20T14:38:36" id="0" hostname="MW-MB-127" tests="55" errors="0" failures="0" time="0">
+<testsuite name="HeadlessChrome 67.0.3372 (Mac OS X 10.12.6)" package="" timestamp="2018-03-20T14:39:17" id="0" hostname="MW-MB-127" tests="55" errors="0" failures="0" time="0">
   <properties>
     <property name="browser.fullName" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/67.0.3372.0 Safari/537.36"/>
   </properties>
-  <testcase name="Timeout with fake timers should change the value using timemachines" time="0" classname="HeadlessChrome_67_0_3372_(Mac_OS_X_10_12_6).Timeout"/>
-  <testcase name="Timeout with fake timers should mock the time" time="0" classname="HeadlessChrome_67_0_3372_(Mac_OS_X_10_12_6).Timeout"/>
-  <testcase name="Timeout should change the value after 500ms" time="0" classname="HeadlessChrome_67_0_3372_(Mac_OS_X_10_12_6).Timeout"/>
+  <testcase name=" should check if true is really true" time="0" classname="HeadlessChrome_67_0_3372_(Mac_OS_X_10_12_6).undefined"/>
+  <testcase name="myAsyncFunction should test a failing promise" time="0" classname="HeadlessChrome_67_0_3372_(Mac_OS_X_10_12_6).myAsyncFunction"/>
   <testcase name="myAsyncFunction should test a failing promise" time="0" classname="HeadlessChrome_67_0_3372_(Mac_OS_X_10_12_6).myAsyncFunction"/>
   <testcase name="myAsyncFunction should test a promise" time="0" classname="HeadlessChrome_67_0_3372_(Mac_OS_X_10_12_6).myAsyncFunction"/>
-  <testcase name="myAsyncFunction should test a failing promise" time="0" classname="HeadlessChrome_67_0_3372_(Mac_OS_X_10_12_6).myAsyncFunction"/>
-  <testcase name="number checker should throw an error if &quot;foo&quot; is provided" time="0" classname="HeadlessChrome_67_0_3372_(Mac_OS_X_10_12_6).number checker"/>
-  <testcase name="number checker should throw an error with &quot;not a number&quot; if &quot;foo&quot; is provided" time="0" classname="HeadlessChrome_67_0_3372_(Mac_OS_X_10_12_6).number checker"/>
   <testcase name="number checker should throw if &quot;foo&quot; is provided" time="0" classname="HeadlessChrome_67_0_3372_(Mac_OS_X_10_12_6).number checker"/>
   <testcase name="number checker should not throw if 2 is provided" time="0" classname="HeadlessChrome_67_0_3372_(Mac_OS_X_10_12_6).number checker"/>
   <testcase name="number checker should return a 1 for 1" time="0" classname="HeadlessChrome_67_0_3372_(Mac_OS_X_10_12_6).number checker"/>
-  <testcase name="spyObj should call Math.floor with a certain value (5)" time="0" classname="HeadlessChrome_67_0_3372_(Mac_OS_X_10_12_6).spyObj"/>
-  <testcase name="spyObj should fake the whole Math thing" time="0" classname="HeadlessChrome_67_0_3372_(Mac_OS_X_10_12_6).spyObj"/>
+  <testcase name="number checker should throw an error with &quot;not a number&quot; if &quot;foo&quot; is provided" time="0" classname="HeadlessChrome_67_0_3372_(Mac_OS_X_10_12_6).number checker"/>
+  <testcase name="number checker should throw an error if &quot;foo&quot; is provided" time="0" classname="HeadlessChrome_67_0_3372_(Mac_OS_X_10_12_6).number checker"/>
+  <testcase name="returnsSomeFunction should return a function" time="0" classname="HeadlessChrome_67_0_3372_(Mac_OS_X_10_12_6).returnsSomeFunction"/>
+  <testcase name="FizzBuzz should return a string for 3" time="0" classname="HeadlessChrome_67_0_3372_(Mac_OS_X_10_12_6).FizzBuzz"/>
+  <testcase name="FizzBuzz should be an instance of FizzBuzz" time="0" classname="HeadlessChrome_67_0_3372_(Mac_OS_X_10_12_6).FizzBuzz"/>
+  <testcase name="FizzBuzz should return -19 for -19" time="0" classname="HeadlessChrome_67_0_3372_(Mac_OS_X_10_12_6).FizzBuzz"/>
+  <testcase name="FizzBuzz should return Fizz for 3" time="0" classname="HeadlessChrome_67_0_3372_(Mac_OS_X_10_12_6).FizzBuzz"/>
+  <testcase name="FizzBuzz should return Buzz for -25" time="0" classname="HeadlessChrome_67_0_3372_(Mac_OS_X_10_12_6).FizzBuzz"/>
+  <testcase name="FizzBuzz should return 2 for 2" time="0" classname="HeadlessChrome_67_0_3372_(Mac_OS_X_10_12_6).FizzBuzz"/>
+  <testcase name="FizzBuzz should return a number for 1" time="0" classname="HeadlessChrome_67_0_3372_(Mac_OS_X_10_12_6).FizzBuzz"/>
+  <testcase name="FizzBuzz should return 1 for 1" time="0" classname="HeadlessChrome_67_0_3372_(Mac_OS_X_10_12_6).FizzBuzz"/>
+  <testcase name="FizzBuzz should return FizzBuzz for -30" time="0" classname="HeadlessChrome_67_0_3372_(Mac_OS_X_10_12_6).FizzBuzz"/>
+  <testcase name="FizzBuzz should return FizzBuzz for 15" time="0" classname="HeadlessChrome_67_0_3372_(Mac_OS_X_10_12_6).FizzBuzz"/>
+  <testcase name="FizzBuzz should return Buzz for 5" time="0" classname="HeadlessChrome_67_0_3372_(Mac_OS_X_10_12_6).FizzBuzz"/>
+  <testcase name="Notify Math random should be called" time="0" classname="HeadlessChrome_67_0_3372_(Mac_OS_X_10_12_6).Notify"/>
+  <testcase name="Notify Math random should return 0.15, always!" time="0" classname="HeadlessChrome_67_0_3372_(Mac_OS_X_10_12_6).Notify"/>
+  <testcase name="Notify should call the window.alert method" time="0" classname="HeadlessChrome_67_0_3372_(Mac_OS_X_10_12_6).Notify"/>
+  <testcase name="Notify notify with date other mock date should call the notify function on a certain date" time="0" classname="HeadlessChrome_67_0_3372_(Mac_OS_X_10_12_6).Notify"/>
+  <testcase name="Notify notify with date should call the notify function on a certain date" time="0" classname="HeadlessChrome_67_0_3372_(Mac_OS_X_10_12_6).Notify"/>
+  <testcase name="Notify notify with dependency should work with a dependency spy object" time="0" classname="HeadlessChrome_67_0_3372_(Mac_OS_X_10_12_6).Notify"/>
+  <testcase name="matcher should be of type User" time="0" classname="HeadlessChrome_67_0_3372_(Mac_OS_X_10_12_6).matcher"/>
+  <testcase name="matcher should have more matchers" time="0" classname="HeadlessChrome_67_0_3372_(Mac_OS_X_10_12_6).matcher"/>
+  <testcase name="matcher should be the same object" time="0" classname="HeadlessChrome_67_0_3372_(Mac_OS_X_10_12_6).matcher"/>
+  <testcase name="matcher should return a zufallsstring" time="0" classname="HeadlessChrome_67_0_3372_(Mac_OS_X_10_12_6).matcher"/>
+  <testcase name="form writes the name into a dom element" time="0" classname="HeadlessChrome_67_0_3372_(Mac_OS_X_10_12_6).form"/>
+  <testcase name="form writes the name into a dom element" time="0" classname="HeadlessChrome_67_0_3372_(Mac_OS_X_10_12_6).form"/>
+  <testcase name=" should check if false is really false" time="0" classname="HeadlessChrome_67_0_3372_(Mac_OS_X_10_12_6).undefined"/>
+  <testcase name="Timeout with fake timers should mock the time" time="0" classname="HeadlessChrome_67_0_3372_(Mac_OS_X_10_12_6).Timeout"/>
+  <testcase name="Timeout with fake timers should change the value using timemachines" time="0" classname="HeadlessChrome_67_0_3372_(Mac_OS_X_10_12_6).Timeout"/>
+  <testcase name="Timeout should change the value after 500ms" time="0" classname="HeadlessChrome_67_0_3372_(Mac_OS_X_10_12_6).Timeout"/>
   <testcase name="spyObj should call Math.floor with a certain value (5)" time="0" classname="HeadlessChrome_67_0_3372_(Mac_OS_X_10_12_6).spyObj"/>
   <testcase name="spyObj should fake to get 5 as result" time="0" classname="HeadlessChrome_67_0_3372_(Mac_OS_X_10_12_6).spyObj"/>
+  <testcase name="spyObj should call Math.floor with a certain value (5)" time="0" classname="HeadlessChrome_67_0_3372_(Mac_OS_X_10_12_6).spyObj"/>
+  <testcase name="spyObj should fake the whole Math thing" time="0" classname="HeadlessChrome_67_0_3372_(Mac_OS_X_10_12_6).spyObj"/>
   <testcase name="Randomizor should call Math.random" time="0" classname="HeadlessChrome_67_0_3372_(Mac_OS_X_10_12_6).Randomizor"/>
   <testcase name="Randomizor should call the callback with Günther" time="0" classname="HeadlessChrome_67_0_3372_(Mac_OS_X_10_12_6).Randomizor"/>
   <testcase name="Randomizor should return 5 as a random number" time="0" classname="HeadlessChrome_67_0_3372_(Mac_OS_X_10_12_6).Randomizor"/>
   <testcase name="Randomizor should get a number" time="0" classname="HeadlessChrome_67_0_3372_(Mac_OS_X_10_12_6).Randomizor"/>
-  <testcase name="Calc Exception handling should fail" time="0" classname="HeadlessChrome_67_0_3372_(Mac_OS_X_10_12_6).Calc"/>
-  <testcase name="Calc Exception handling should fail with to throw" time="0" classname="HeadlessChrome_67_0_3372_(Mac_OS_X_10_12_6).Calc"/>
-  <testcase name="Calc Addition should add 1 and 1 and return 2" time="0" classname="HeadlessChrome_67_0_3372_(Mac_OS_X_10_12_6).Calc"/>
   <testcase name="Calc Addition should add 2 and 2 and return 4" time="0" classname="HeadlessChrome_67_0_3372_(Mac_OS_X_10_12_6).Calc"/>
-  <testcase name="form writes the name into a dom element" time="0" classname="HeadlessChrome_67_0_3372_(Mac_OS_X_10_12_6).form"/>
-  <testcase name="form writes the name into a dom element" time="0" classname="HeadlessChrome_67_0_3372_(Mac_OS_X_10_12_6).form"/>
-  <testcase name=" should check if true is really true" time="0" classname="HeadlessChrome_67_0_3372_(Mac_OS_X_10_12_6).undefined"/>
-  <testcase name="Notify Math random should be called" time="0" classname="HeadlessChrome_67_0_3372_(Mac_OS_X_10_12_6).Notify"/>
-  <testcase name="Notify notify with date other mock date should call the notify function on a certain date" time="0" classname="HeadlessChrome_67_0_3372_(Mac_OS_X_10_12_6).Notify"/>
-  <testcase name="Notify notify with date should call the notify function on a certain date" time="0" classname="HeadlessChrome_67_0_3372_(Mac_OS_X_10_12_6).Notify"/>
-  <testcase name="Notify notify with dependency should work with a dependency spy object" time="0" classname="HeadlessChrome_67_0_3372_(Mac_OS_X_10_12_6).Notify"/>
-  <testcase name="Notify Math random should return 0.15, always!" time="0" classname="HeadlessChrome_67_0_3372_(Mac_OS_X_10_12_6).Notify"/>
-  <testcase name="Notify should call the window.alert method" time="0" classname="HeadlessChrome_67_0_3372_(Mac_OS_X_10_12_6).Notify"/>
-  <testcase name=" should check if false is really false" time="0" classname="HeadlessChrome_67_0_3372_(Mac_OS_X_10_12_6).undefined"/>
-  <testcase name="matcher should be the same object" time="0" classname="HeadlessChrome_67_0_3372_(Mac_OS_X_10_12_6).matcher"/>
-  <testcase name="matcher should return a zufallsstring" time="0" classname="HeadlessChrome_67_0_3372_(Mac_OS_X_10_12_6).matcher"/>
-  <testcase name="matcher should be of type User" time="0" classname="HeadlessChrome_67_0_3372_(Mac_OS_X_10_12_6).matcher"/>
-  <testcase name="matcher should have more matchers" time="0" classname="HeadlessChrome_67_0_3372_(Mac_OS_X_10_12_6).matcher"/>
-  <testcase name="returnsSomeFunction should return a function" time="0" classname="HeadlessChrome_67_0_3372_(Mac_OS_X_10_12_6).returnsSomeFunction"/>
-  <testcase name="FizzBuzz should return FizzBuzz for -30" time="0" classname="HeadlessChrome_67_0_3372_(Mac_OS_X_10_12_6).FizzBuzz"/>
-  <testcase name="FizzBuzz should return -19 for -19" time="0" classname="HeadlessChrome_67_0_3372_(Mac_OS_X_10_12_6).FizzBuzz"/>
-  <testcase name="FizzBuzz should return Buzz for 5" time="0" classname="HeadlessChrome_67_0_3372_(Mac_OS_X_10_12_6).FizzBuzz"/>
-  <testcase name="FizzBuzz should return FizzBuzz for 15" time="0" classname="HeadlessChrome_67_0_3372_(Mac_OS_X_10_12_6).FizzBuzz"/>
-  <testcase name="FizzBuzz should return 2 for 2" time="0" classname="HeadlessChrome_67_0_3372_(Mac_OS_X_10_12_6).FizzBuzz"/>
-  <testcase name="FizzBuzz should return Fizz for 3" time="0" classname="HeadlessChrome_67_0_3372_(Mac_OS_X_10_12_6).FizzBuzz"/>
-  <testcase name="FizzBuzz should return a number for 1" time="0" classname="HeadlessChrome_67_0_3372_(Mac_OS_X_10_12_6).FizzBuzz"/>
-  <testcase name="FizzBuzz should return Buzz for -25" time="0" classname="HeadlessChrome_67_0_3372_(Mac_OS_X_10_12_6).FizzBuzz"/>
-  <testcase name="FizzBuzz should return a string for 3" time="0" classname="HeadlessChrome_67_0_3372_(Mac_OS_X_10_12_6).FizzBuzz"/>
-  <testcase name="FizzBuzz should return 1 for 1" time="0" classname="HeadlessChrome_67_0_3372_(Mac_OS_X_10_12_6).FizzBuzz"/>
-  <testcase name="FizzBuzz should be an instance of FizzBuzz" time="0" classname="HeadlessChrome_67_0_3372_(Mac_OS_X_10_12_6).FizzBuzz"/>
+  <testcase name="Calc Addition should add 1 and 1 and return 2" time="0" classname="HeadlessChrome_67_0_3372_(Mac_OS_X_10_12_6).Calc"/>
+  <testcase name="Calc Exception handling should fail with to throw" time="0" classname="HeadlessChrome_67_0_3372_(Mac_OS_X_10_12_6).Calc"/>
+  <testcase name="Calc Exception handling should fail" time="0" classname="HeadlessChrome_67_0_3372_(Mac_OS_X_10_12_6).Calc"/>
+  <testcase name="Async function with fake timers should call a callback using spies" time="0" classname="HeadlessChrome_67_0_3372_(Mac_OS_X_10_12_6).Async function"/>
+  <testcase name="Async function with fake timers should call another callback using spies" time="0" classname="HeadlessChrome_67_0_3372_(Mac_OS_X_10_12_6).Async function"/>
+  <testcase name="Async function with fake timers should call a callback after 400ms with &quot;Guten Tach&quot;" time="0" classname="HeadlessChrome_67_0_3372_(Mac_OS_X_10_12_6).Async function"/>
+  <testcase name="Async function without fake timers should call another callback using spies" time="0" classname="HeadlessChrome_67_0_3372_(Mac_OS_X_10_12_6).Async function">
+    <skipped/>
+  </testcase>
   <testcase name="Async function without fake timers should call a callback after 400ms with &quot;Guten Tach&quot;" time="0" classname="HeadlessChrome_67_0_3372_(Mac_OS_X_10_12_6).Async function">
     <skipped/>
   </testcase>
   <testcase name="Async function without fake timers should call a callback using spies" time="0" classname="HeadlessChrome_67_0_3372_(Mac_OS_X_10_12_6).Async function">
     <skipped/>
   </testcase>
-  <testcase name="Async function without fake timers should call another callback using spies" time="0" classname="HeadlessChrome_67_0_3372_(Mac_OS_X_10_12_6).Async function">
-    <skipped/>
-  </testcase>
-  <testcase name="Async function with fake timers should call another callback using spies" time="0" classname="HeadlessChrome_67_0_3372_(Mac_OS_X_10_12_6).Async function"/>
-  <testcase name="Async function with fake timers should call a callback after 400ms with &quot;Guten Tach&quot;" time="0" classname="HeadlessChrome_67_0_3372_(Mac_OS_X_10_12_6).Async function"/>
-  <testcase name="Async function with fake timers should call a callback using spies" time="0" classname="HeadlessChrome_67_0_3372_(Mac_OS_X_10_12_6).Async function"/>
   <system-out>
     <![CDATA[HeadlessChrome 67.0.3372 (Mac OS X 10.12.6) LOG: 'beforeAll'
 ,HeadlessChrome 67.0.3372 (Mac OS X 10.12.6) LOG: 'beforeEach'
@@ -83,10 +83,6 @@
 ,HeadlessChrome 67.0.3372 (Mac OS X 10.12.6) LOG: 'afterAll'
 ,HeadlessChrome 67.0.3372 (Mac OS X 10.12.6) LOG: 'beforeAll'
 ,HeadlessChrome 67.0.3372 (Mac OS X 10.12.6) LOG: 'beforeEach'
-,HeadlessChrome 67.0.3372 (Mac OS X 10.12.6) LOG: 'afterEach'
-,HeadlessChrome 67.0.3372 (Mac OS X 10.12.6) LOG: 'beforeEach'
-,HeadlessChrome 67.0.3372 (Mac OS X 10.12.6) LOG: 'afterEach'
-,HeadlessChrome 67.0.3372 (Mac OS X 10.12.6) LOG: 'beforeEach'
 ,HeadlessChrome 67.0.3372 (Mac OS X 10.12.6) LOG: 'inner beforeEach'
 ,HeadlessChrome 67.0.3372 (Mac OS X 10.12.6) LOG: 'it'
 ,HeadlessChrome 67.0.3372 (Mac OS X 10.12.6) LOG: 'inner afterEach'
@@ -95,6 +91,10 @@
 ,HeadlessChrome 67.0.3372 (Mac OS X 10.12.6) LOG: 'inner beforeEach'
 ,HeadlessChrome 67.0.3372 (Mac OS X 10.12.6) LOG: 'it'
 ,HeadlessChrome 67.0.3372 (Mac OS X 10.12.6) LOG: 'inner afterEach'
+,HeadlessChrome 67.0.3372 (Mac OS X 10.12.6) LOG: 'afterEach'
+,HeadlessChrome 67.0.3372 (Mac OS X 10.12.6) LOG: 'beforeEach'
+,HeadlessChrome 67.0.3372 (Mac OS X 10.12.6) LOG: 'afterEach'
+,HeadlessChrome 67.0.3372 (Mac OS X 10.12.6) LOG: 'beforeEach'
 ,HeadlessChrome 67.0.3372 (Mac OS X 10.12.6) LOG: 'afterEach'
 ,HeadlessChrome 67.0.3372 (Mac OS X 10.12.6) LOG: 'afterAll'
 
