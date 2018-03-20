@@ -1,0 +1,28 @@
+{
+  "name": "jstesting",
+  "version": "1.0.0",
+  "description": "``` npm init npm install -D karma npm install -D karma-jasmine karma-chrome-launcher jasmine-core ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sspringer82/jstesting.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sspringer82/jstesting/issues"
+  },
+  "homepage": "https://github.com/sspringer82/jstesting#readme",
+  "devDependencies": {
+    "jasmine-core": "^3.1.0",
+    "karma": "^2.0.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-jasmine": "^1.1.1"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
+}
