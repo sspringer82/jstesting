@@ -1,5 +1,5 @@
 function numberChecker(input) {
-  if (typeof input === 'string') {
+  if (typeof input !== 'number') {
     throw new Error('Not a number');
   }
   return input;
