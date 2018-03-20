@@ -39,4 +39,32 @@ describe('Calc', () => {
       expect(result).toBe(4); // assert
     });
   });
+  describe('Exception handling', () => {
+    it('should fail', () => {
+      try {
+        calc.add('a', 'b');
+      } catch (e) {
+        expect(e.message).toBe('Not a number');
+      }
+    });
+
+    it('should fail with to throw', () => {
+      // to throw something
+      const func = () => {
+        calc.add('a', 'b');
+      };
+      expect(func).toThrow();
+
+      // to throw an error
+      const func2 = calc.add.bind(null, 'a', 'b');
+      expect(func2).toThrowError();
+
+      // to throw an error with message
+      const func3 = calc.add.bind(null, 'a', 'b');
+      expect(func3).toThrowError('Not a number');
+
+      // to throw an error with arrow function and message
+      expect(() => calc.add('a', 'b')).toThrowError('Not a number');
+    });
+  });
 });
