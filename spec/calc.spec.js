@@ -1,5 +1,5 @@
-xdescribe('Calc', () => {
-  xit('should add 1 and 1 and return 2', () => {
+describe('Calc', () => {
+  it('should add 1 and 1 and return 2', () => {
     const calc = new Calc(); // arrange
 
     const result = calc.add(1, 1); // act
