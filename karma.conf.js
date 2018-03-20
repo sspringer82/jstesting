@@ -55,8 +55,8 @@ module.exports = function(config) {
     },
 
     junitReporter: {
-      outputDir: 'reports'
-    }
+      outputDir: 'reports',
+    },
 
     // start these browsers
     // available browser launchers: https://npmjs.org/browse/keyword/karma-launcher
