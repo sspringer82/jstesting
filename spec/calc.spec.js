@@ -1,16 +1,42 @@
 describe('Calc', () => {
-  it('should add 1 and 1 and return 2', () => {
-    const calc = new Calc(); // arrange
+  let calc;
 
-    const result = calc.add(1, 1); // act
-
-    expect(result).toBe(2); // assert
+  beforeAll(() => {
+    // don't touch
+    console.log('beforeAll');
   });
-  it('should add 2 and 2 and return 4', () => {
-    const calc = new Calc(); // arrange
+  afterAll(() => {
+    // don't touch
+    console.log('afterAll');
+  });
 
-    const result = calc.add(2, 2); // act
+  beforeEach(() => {
+    console.log('beforeEach');
+    calc = new Calc(); // arrange
+  });
 
-    expect(result).toBe(4); // assert
+  afterEach(() => {
+    console.log('afterEach');
+  });
+
+  describe('Addition', () => {
+    beforeEach(() => {
+      console.log('inner beforeEach');
+    });
+
+    afterEach(() => {
+      console.log('inner afterEach');
+    });
+    it('should add 1 and 1 and return 2', () => {
+      console.log('it');
+      const result = calc.add(1, 1); // act
+
+      expect(result).toBe(2); // assert
+    });
+    it('should add 2 and 2 and return 4', () => {
+      const result = calc.add(2, 2); // act
+      console.log('it');
+      expect(result).toBe(4); // assert
+    });
   });
 });
