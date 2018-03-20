@@ -16,6 +16,7 @@ module.exports = function(config) {
     files: [
       'node_modules/jquery/dist/jquery.js',
       'node_modules/jasmine-jquery/lib/jasmine-jquery.js',
+      'node_modules/jasmine-ajax/lib/mock-ajax.js',
       'src/*.js',
       'spec/*.spec.js',
       'spec/helpers/*.js',
@@ -60,7 +61,8 @@ module.exports = function(config) {
 
     // start these browsers
     // available browser launchers: https://npmjs.org/browse/keyword/karma-launcher
-    browsers: ['ChromeHeadless', 'HeadlessChromeWOPuppeteer'],
+    //browsers: ['ChromeHeadless', 'HeadlessChromeWOPuppeteer'],
+    browsers: ['Chrome'],
 
     // Continuous Integration mode
     // if true, Karma captures browsers, runs the tests and exits
