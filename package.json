@@ -21,7 +21,8 @@
     "karma": "^2.0.0",
     "karma-chrome-launcher": "^2.2.0",
     "karma-jasmine": "^1.1.1",
-    "karma-mocha-reporter": "^2.2.5"
+    "karma-mocha-reporter": "^2.2.5",
+    "puppeteer": "^1.2.0"
   },
   "dependencies": {
     "jquery": "^3.3.1"
