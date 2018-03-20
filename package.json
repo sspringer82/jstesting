@@ -1,8 +1,7 @@
 {
   "name": "jstesting",
   "version": "1.0.0",
-  "description":
-    "``` npm init npm install -D karma npm install -D karma-jasmine karma-chrome-launcher jasmine-core ```",
+  "description": "``` npm init npm install -D karma npm install -D karma-jasmine karma-chrome-launcher jasmine-core ```",
   "main": "index.js",
   "scripts": {
     "test": "karma start --single-run",
@@ -23,6 +22,7 @@
     "karma": "^2.0.0",
     "karma-chrome-launcher": "^2.2.0",
     "karma-jasmine": "^1.1.1",
+    "karma-junit-reporter": "^1.2.0",
     "karma-mocha-reporter": "^2.2.5",
     "puppeteer": "^1.2.0"
   },
