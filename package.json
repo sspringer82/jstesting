@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/sspringer82/jstesting#readme",
   "devDependencies": {
+    "jasmine-ajax": "^3.3.1",
     "jasmine-core": "2.9.1",
     "jasmine-jquery": "^2.1.1",
     "karma": "^2.0.0",
