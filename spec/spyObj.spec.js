@@ -1,4 +1,4 @@
-fdescribe('spyObj', () => {
+describe('spyObj', () => {
   it('should fake the whole Math thing', () => {
     const MyMath = jasmine.createSpyObj('Math', ['floor', 'random']);
 
