@@ -25,5 +25,11 @@ describe('Timeout', () => {
       jasmine.clock().tick(500);
       expect(a.value).toBe('Günther');
     });
+    it('should mock the time', () => {
+      var baseTime = new Date(1970, 0, 1);
+      jasmine.clock().mockDate(baseTime);
+      const value = 'Wed, 31 Dec 1969 23:00:00 GMT';
+      expect(new Date().toUTCString()).toBe(value);
+    });
   });
 });
