@@ -18,6 +18,8 @@ module.exports = function(config) {
       'node_modules/jasmine-jquery/lib/jasmine-jquery.js',
       'src/*.js',
       'spec/*.spec.js',
+      'spec/helpers/*.js',
+      'spec/fixtures/*.spec.html',
     ],
 
     // list of files / patterns to exclude
