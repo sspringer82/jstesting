@@ -11,4 +11,31 @@ describe('myAsyncFunction', () => {
       done();
     });
   });
+
+  it('should test a failing promise', done => {
+    const promise = myAsyncFunction(true);
+
+    jasmine.clock().tick(1001);
+
+    promise.then(
+      () => {
+        done.fail('You should not be here');
+      },
+      err => {
+        expect(err).toBe('Oh noez!');
+        done();
+      },
+    );
+  });
+
+  it('should test a failing promise', done => {
+    const promise = myAsyncFunction(true);
+
+    jasmine.clock().tick(1001);
+
+    promise.catch(err => {
+      expect(err).toBe('Oh noez!');
+      done();
+    });
+  });
 });
