@@ -2,7 +2,7 @@ describe('ajax', () => {
   beforeEach(() => jasmine.Ajax.install());
   afterEach(() => jasmine.Ajax.uninstall());
 
-  fit('should work', done => {
+  it('should work', done => {
     jasmine.getFixtures().set('<div id="id"></div>');
     $.ajax('/api/name', {
       method: 'GET',
