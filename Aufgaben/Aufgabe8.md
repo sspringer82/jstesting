@@ -18,6 +18,7 @@ const responseText = [
         
 const httpResponse = {
   status: 200,
+  contentType: 'text/json',
   responseText: JSON.stringify(responseText)
 };
 
